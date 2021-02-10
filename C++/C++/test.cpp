@@ -4,5 +4,6 @@
 //
 //
 //int main() {
-//	cout << -1 << endl;
+//	if (NULL == 0)
+//		cout << "das";
 //}
