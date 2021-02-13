@@ -1,44 +1,44 @@
-#include<iostream>
-#include<vector>
-#include<algorithm>
-using namespace std;
-
-//bool mySort(vector<string> s1, vector <string> s2) {
-//	if (s1[0].compare(s2[0]) == 0)
-//		return false;
-//	else
-//		return s1 < s2;
+//#include<iostream>
+//#include<vector>
+//#include<algorithm>
+//using namespace std;
+//
+////bool mySort(vector<string> s1, vector <string> s2) {
+////	if (s1[0].compare(s2[0]) == 0)
+////		return false;
+////	else
+////		return s1 < s2;
+////}
+//
+//bool mySort(pair<int, string> s1, pair<int, string> s2) {
+//	return s1.first < s2.first;
 //}
-
-bool mySort(pair<int, string> s1, pair<int, string> s2) {
-	return s1.first < s2.first;
-}
-
-//1.
-int main(void) {
-	int N;
-	vector<int> ageV;
-	vector<string> nameV;
-
-	cin >> N;
-	
-	vector<pair<int, string>> v(N);
-	
-	for (int i = 0; i < N; i++) {
-		cin >> v[i].first;
-		cin >> v[i].second;
-	}
-
-	stable_sort(v.begin(), v.end(), mySort);
-	
-	for (int i = 0; i < N; i++) {
-		cout << v[i].first << " " << v[i].second << '\n';
-	}
-}
-
-
-
-
+//
+////1.
+//int main(void) {
+//	int N;
+//	vector<int> ageV;
+//	vector<string> nameV;
+//
+//	cin >> N;
+//	
+//	vector<pair<int, string>> v(N);
+//	
+//	for (int i = 0; i < N; i++) {
+//		cin >> v[i].first;
+//		cin >> v[i].second;
+//	}
+//
+//	stable_sort(v.begin(), v.end(), mySort);
+//	
+//	for (int i = 0; i < N; i++) {
+//		cout << v[i].first << " " << v[i].second << '\n';
+//	}
+//}
+//
+//
+//
+//
 
 
 
