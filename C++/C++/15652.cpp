@@ -3,7 +3,7 @@
 //using namespace std;
 //
 //int N, M;
-//int arr[7];
+//int arr[8];
 //
 //void backTrack(int cnt) {
 //	if (cnt == M) {
@@ -15,8 +15,16 @@
 //	}
 //
 //	for (int i = 1; i <= N; i++) {
-//		arr[cnt] = i;
-//		backTrack(cnt + 1);
+//		if (cnt > 0) {
+//			if (i >= arr[cnt - 1]) {
+//				arr[cnt] = i;
+//				backTrack(cnt + 1);
+//			}
+//		}
+//		else {
+//			arr[cnt] = i;
+//			backTrack(cnt + 1);
+//		}
 //	}
 //}
 //
