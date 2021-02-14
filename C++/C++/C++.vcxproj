@@ -160,6 +160,7 @@
     <ClCompile Include="2751.cpp" />
     <ClCompile Include="4948.cpp" />
     <ClCompile Include="9663.cpp" />
+    <ClCompile Include="9663_2.cpp" />
     <ClCompile Include="hello.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
