@@ -3,11 +3,26 @@
 //using namespace std;
 //
 //int N;
-//int cnt;
 //
-//int rem[1000001] = { 0, 1, 2, };
+//int rem[1000001] = {0, 1, 2, };
 //
+//int tile(int N) {
+//	if (rem[N]) return rem[N];
 //
+//	rem[N] = (tile(N - 1) + tile(N - 2)) % 15746;
+//	return rem[N];
+//}
+//
+//int main(void) {
+//
+//	cin >> N;
+//
+//	cout << tile(N);
+//	return 0;
+//}
+
+
+
 //void tile(int idx) {
 //	if (idx > N)
 //		return;
@@ -27,15 +42,3 @@
 //	else
 //		tile(idx);
 //}
-//
-//
-//int main(void) {
-//
-//	cin >> N;
-//	tile(0);
-//
-//	cout << cnt;
-//	return 0;
-//}
-//
-//
